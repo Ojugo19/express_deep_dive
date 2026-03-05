@@ -1,19 +1,24 @@
 # Simple Express REST API
 
-A lightweight **Node.js + Express** REST API with mock data for users and products. Perfect as a starter template, learning project, or backend for frontend practice.
+A minimal **Node.js + Express** REST API using mock data. 
 
 ## Features
 
-- Basic health-check endpoint (`/`)
-- Get all users (`/api/users`)
-- Get single user by ID (`/api/users/:id`)
-- Get mock products (`/api/products`)
-- Environment variable support via `.env`
-- Proper HTTP status codes & JSON error responses
+- Basic welcome endpoint
+- List all mock users
+- Get single user by ID (with proper error handling)
+- List mock products
+- Environment variable support (`PORT`)
+- JSON responses with correct HTTP status codes
 
 ## Tech Stack
 
-- **Runtime**: Node.js
-- **Framework**: Express
-- **Environment management**: dotenv
-- **Language**: JavaScript (ES modules)
+- Node.js
+- Express
+- dotenv (for environment variables)
+- ES Modules (`import` syntax)
+
+## Prerequisites
+
+- Node.js ≥ 18
+- npm
