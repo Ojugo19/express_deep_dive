@@ -1,24 +1,18 @@
-# Simple Express REST API
+# Express Mock API - Product Search by Name
 
-A minimal **Node.js + Express** REST API using mock data. 
+Minimal **Node.js + Express** REST API with mock data for users and products.  
+This version emphasizes the **product search by name** endpoint (partial, case-insensitive matching).
 
 ## Features
 
-- Basic welcome endpoint
-- List all mock users
-- Get single user by ID (with proper error handling)
-- List mock products
-- Environment variable support (`PORT`)
-- JSON responses with correct HTTP status codes
+- Welcome / health-check endpoint
+- List all mock users + get user by ID
+- List all mock products
+- **Search products by name** (partial match, case-insensitive)
+- Proper status codes and error handling
 
 ## Tech Stack
 
 - Node.js
 - Express
-- dotenv (for environment variables)
-- ES Modules (`import` syntax)
-
-## Prerequisites
-
-- Node.js ≥ 18
-- npm
+- dotenv
